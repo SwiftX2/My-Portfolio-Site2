@@ -10,7 +10,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(/img/black\ and\ white.jpg);
+    background-image: url(img/bg.jpg);
     background-size: cover;
     background-position: center;
     /* background-color:rgba(0, 0, 0, 0.5) */
@@ -315,7 +315,7 @@ footer p:nth-child(1){
     .hero{
     height:100vh;
     width:110%;
-    background-image: url(/img/black\ and\ white.jpg);
+    background-image: url(img/bg.jpg);
     background-size: cover;
     background-position: center;
 
@@ -340,7 +340,7 @@ footer p:nth-child(1){
         letter-spacing: 1px;
         cursor: pointer;
         margin-right: auto;
-        margin-bottom: 25px;
+        margin-bottom: 0;
     }
     span{
         color: #f9004d;
@@ -388,18 +388,21 @@ footer p:nth-child(1){
         position: relative;
         top: 15%;
         left: 8%;
-        transform: translateY(-20%);
+        transform: translateY(-30%);
+        
+        
     }
     h1{
         color: var(--content-text-color);
         margin: 20px 0px 20px;
         font-size: 65px;
+        margin-bottom:5px ;
     }
     
     h3{
       color:var(--content-text-color);
       font-size: 22px;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
     h4{
         color: var(--content-text-color);
@@ -414,7 +417,30 @@ footer p:nth-child(1){
     
     }
     
-    
+
+    .newsletter form input:first-child{
+        display: inline-block;
+        width: 100%;
+        padding: 14px 130px 14px 15px;
+        border: 2px solid #f9004d;
+        outline: none;
+        border-radius: 30px;
+    }
+
+    .newsletter form input:last-child{
+        position: absolute;
+        display: inline-block;
+        outline: none;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 30px;
+        background-color: #f9004d;
+        color: var(--content-text-color);
+        box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+        top: 6px;
+        right: 6px;
+    }
+   
     .about{
         width: 110%;
         padding: 100px 0px;
