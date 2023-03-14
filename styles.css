@@ -578,10 +578,12 @@ footer p:nth-child(1){
     height:290px;
     }
     .contact-me p{
-        font-size: 25px;
+        font-size: 1em;
         text-align: center;
+        
     }
     footer{
         width: 110%;
+        
     }
 }
