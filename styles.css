@@ -342,7 +342,7 @@ footer p:nth-child(1){
         position: relative;
         display: flex;
         color:#fff ;
-        font-size: 45px;
+        font-size: 30px;
         letter-spacing: 1px;
         cursor: pointer;
         margin-right: auto;
@@ -356,16 +356,21 @@ footer p:nth-child(1){
     }
     nav ul li{
         list-style-type:none;
-        display: block;
-        padding:10px 25px;
+        display: inline-block;
+        padding:8px 15px;
+        position: relative;
+        /* bottom: 1em; */
+        top: 0.4em;
         
     }
     nav ul li a{
         color: #fff;
-        font-size: 20px;
+        font-size: 0.7em;
         text-decoration: none;
         text-transform: capitalize;
         margin-right: auto;
+        position: relative;
+        bottom: 1em;
         
     }
         
@@ -374,13 +379,14 @@ footer p:nth-child(1){
         transition: 4s;
     
     }
-    .btn{
+    .btn a{
+        position: relative;
         background-color: #f9004d;
         color: #fff;
         text-decoration: none;
         border: 2px solid transparent;
         font-weight: bold;
-        padding: 10px 25px;
+        padding: 10px 15px;
         border-radius: 30px;
         transition: 1s;
         margin-bottom: 15px;
@@ -420,6 +426,8 @@ footer p:nth-child(1){
         width: 310px;
         max-width: 100%;
         position: relative;
+        bottom: 1em;
+        right:1em;
     
     }
     
